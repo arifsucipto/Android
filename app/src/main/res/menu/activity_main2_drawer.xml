@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_multimedia"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Multimedia" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_spinner"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Custom Spinner" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Custom List view" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="RecycleView" />
+            <item
+                android:id="@+id/nav_movie"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Now Playing" />
+            <item
+                android:id="@+id/nav_fragment"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Fragment" />
+            <item
+                android:id="@+id/nav_searchmovie"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Search Movie" />
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Register" />
+            <item
+                android:id="@+id/nav_firebase"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Firebase" />
+        </menu>
+    </item>
+
+</menu>

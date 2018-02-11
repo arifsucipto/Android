@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/amber_100"
+    android:id="@+id/lay_detail_frag"
+    tools:context="mobile.app.qybae.demo.intent.DetailFragment">
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/hello_blank_fragment" />-->
+
+    <TextView
+        android:id="@+id/txtjobheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/txtstatusjob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/txtcounterview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="oren" />
+
+    <Button
+        android:id="@+id/btnblack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ijo" />
+</LinearLayout>

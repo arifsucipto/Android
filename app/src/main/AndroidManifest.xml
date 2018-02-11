@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobile.app.qybae.demo">
+
+    <!-- script untuk permission pada aplikasi -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- kalo mau buat activity baru , maka intent filter nya pindahin ke activity yg baru -->
+        <activity android:name=".MainActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="Grid Menu">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".activity.SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <!-- no action bar untuk full screen pas awal -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.inputData"
+            android:label="Input Data"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".activity.tampilData"
+            android:label="Tampil Menu Data" />
+        <activity
+            android:name=".activity.LuasActivity"
+            android:label="Perhitungan Luas" />
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Web View Activity" />
+        <activity
+            android:name=".activity.WebHtmlActivity"
+            android:label="HTML Activity" />
+        <activity
+            android:name=".activity.CustomAlertActivity"
+            android:label="Alert Activity" />
+        <activity
+            android:name=".activity.CustomToastActivity"
+            android:label="Toast Activity" />
+        <activity
+            android:name=".activity.KalulatorActivity"
+            android:label="Kalkulator Activity" />
+        <activity android:name=".webviewloading" />
+        <activity android:name=".intent.implisitActivity" />
+        <activity android:name=".intent.outImplisitActivity">
+
+            <!-- buat dua intent filter buat dua kondisi antara isi nomor sama ngga -->
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intent.fragmentActivity"
+            android:label="Fragment Demo" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".helper.MyFunction" />
+        <activity
+            android:name=".drawer.multimedia"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".drawer.Radio"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".drawer.multimedia" />
+        <activity
+            android:name=".drawer.VideoStreaming"
+            android:parentActivityName=".drawer.multimedia" />
+        <activity
+            android:name=".drawer.RadioAnimation"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".drawer.multimedia" />
+        <activity android:name=".drawer.ListBuahActivity" />
+        <activity android:name=".drawer.DetailBuah" />
+        <activity android:name=".drawer.SpinnerACtivity" />
+        <activity android:name=".drawer.ImageGallery" />
+        <activity android:name=".parse.RecycleView" />
+        <activity android:name=".parse.DetailMovie" />
+        <activity
+            android:name=".fragment.MovieFragment"
+            android:label="Fragment Movie"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".fragment.SearchMovieActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Firebase.FirebaseActivity"
+            android:label="@string/title_activity_firebase"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Firebase.MasterStudents" />
+        <activity android:name=".Firebase.DetailStudentActivity"></activity>
+        <activity android:name=".indoactivity.IndonesiaActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Demo Indonesia</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="member"><u>already a member, login?</u></string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="operator">Operator</string>
+    <string name="hitung">Hitung</string>
+    <string name="samadengan">=</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="buah">
+        <item>strawberry</item>
+        <item>manggis</item>
+        <item>jambu air</item>
+        <item>durian</item>
+        <item>ceri</item>
+        <item>apel</item>
+        <item>alpukat</item>
+    </string-array>
+
+    <string-array name="gambar">
+        <item>@drawable/strawberry</item>
+        <item>@drawable/manggis</item>
+        <item>@drawable/jambuair</item>
+        <item>@drawable/durian</item>
+        <item>@drawable/ceri</item>
+        <item>@drawable/apel</item>
+        <item>@drawable/alpukat</item>
+    </string-array>
+
+    <string-array name="music">
+        <item>@raw/strawberry</item>
+        <item>@raw/manggis</item>
+        <item>@raw/jambuair</item>
+        <item>@raw/durian</item>
+        <item>@raw/ceri</item>
+        <item>@raw/apel</item>
+        <item>@raw/alpukat</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>knight</item>
+        <item>mage</item>
+        <item>blacksmith</item>
+        <item>hunter</item>
+        <item>assasin</item>
+        <item>rebel</item>
+        <item>knight1</item>
+        <item>mage1</item>
+        <item>blacksmith1</item>
+        <item>hunter1</item>
+        <item>assasin1</item>
+        <item>rebel1</item>
+
+    </string-array>
+
+    <string-array name="stat">
+        <item>INDONESIA str agi dex luk knight bowling bash spear dynamo</item>
+        <item>INDONESIA int dex luk water ball lord of vermilion storm gust</item>
+        <item>INDONESIA str agi luk mampnite power maximize duit cepet</item>
+        <item>dex agi panah double strafe trapper falcon assaulkt</item>
+        <item>str agi sonic blow hiding venom assasul</item>
+        <item>dex agi tembakan granat rifle shotgun rebelll</item>
+        <item>2str agi dex luk knight bowling bash spear dynamo</item>
+        <item>2int dex luk water ball lord of vermilion storm gust</item>
+        <item>2str agi luk mampnite power maximize duit cepet</item>
+        <item>2dex agi panah double strafe trapper falcon assaulkt</item>
+        <item>2str agi sonic blow hiding venom assasul</item>
+        <item>2dex agi tembakan granat rifle shotgun rebelll</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
